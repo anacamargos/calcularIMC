@@ -13,6 +13,8 @@
 		BFA35C53222EEF4F00304475 /* CalcularIMC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFA35C51222EEF4F00304475 /* CalcularIMC.xcdatamodeld */; };
 		BFA35C55222EEF5000304475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA35C54222EEF5000304475 /* Assets.xcassets */; };
 		BFA35C58222EEF5000304475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA35C56222EEF5000304475 /* LaunchScreen.storyboard */; };
+		BFA35C62222EF2D600304475 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA35C61222EF2D600304475 /* HomeViewController.swift */; };
+		BFA35C64222EF2E000304475 /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA35C63222EF2E000304475 /* ResultadoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BFA35C54222EEF5000304475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA35C57222EEF5000304475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA35C59222EEF5000304475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA35C61222EF2D600304475 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BFA35C63222EF2E000304475 /* ResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		BFA35C49222EEF4F00304475 /* CalcularIMC */ = {
 			isa = PBXGroup;
 			children = (
+				BFA35C5F222EF2BC00304475 /* Home */,
+				BFA35C60222EF2C300304475 /* Resultado */,
 				BFA35C4A222EEF4F00304475 /* AppDelegate.swift */,
 				BFA35C4C222EEF4F00304475 /* ViewController.swift */,
 				BFA35C4E222EEF4F00304475 /* Main.storyboard */,
@@ -65,6 +71,22 @@
 				BFA35C51222EEF4F00304475 /* CalcularIMC.xcdatamodeld */,
 			);
 			path = CalcularIMC;
+			sourceTree = "<group>";
+		};
+		BFA35C5F222EF2BC00304475 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFA35C61222EF2D600304475 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BFA35C60222EF2C300304475 /* Resultado */ = {
+			isa = PBXGroup;
+			children = (
+				BFA35C63222EF2E000304475 /* ResultadoViewController.swift */,
+			);
+			path = Resultado;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			files = (
 				BFA35C4D222EEF4F00304475 /* ViewController.swift in Sources */,
 				BFA35C4B222EEF4F00304475 /* AppDelegate.swift in Sources */,
+				BFA35C64222EF2E000304475 /* ResultadoViewController.swift in Sources */,
 				BFA35C53222EEF4F00304475 /* CalcularIMC.xcdatamodeld in Sources */,
+				BFA35C62222EF2D600304475 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
